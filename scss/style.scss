@@ -175,6 +175,7 @@ header {
 	margin-left: -180px;
 }
 #sub-nav__item2 {
+	overflow: hidden;
 	width: 620px;
 	height: 420px;
 	margin-left: -290px;
@@ -190,6 +191,7 @@ header {
 	}
 }
 #sub-nav__item3 {
+	overflow: hidden;
 	width: 620px;
 	height: 420px;
 	margin-left: -390px;
@@ -205,6 +207,7 @@ header {
 	}
 }
 #sub-nav__item4 {
+	overflow: hidden;
 	width: 590px;
 	height: 420px;
 	margin-left: -510px;
@@ -727,6 +730,7 @@ header {
 }
 .nft-features__btn_active {
 	border: 1px solid #a962ff;
+	box-sizing: border-box;
 }
 .nft-features__body {
 	max-width: 1100px;
