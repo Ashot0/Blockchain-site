@@ -857,6 +857,7 @@ header {
   margin-left: 10px;
   border-radius: 15px;
   transition: all 0.5s;
+  display: inline-block;
 }
 
 .nft-features__btn:hover {
