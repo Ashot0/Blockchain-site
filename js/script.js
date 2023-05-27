@@ -62,6 +62,12 @@ function close(elem) {
 	elem.childNodes[3].className = "sub-nav__item";
 }
 
+const navBurger = document.getElementById('nav__burger');
+function burgerActive(params) {
+	navBurger.classList.toggle('_active');
+}
+
+
 
 
 const imgBoxes = document.getElementById('imgBoxes');
