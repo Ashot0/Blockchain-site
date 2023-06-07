@@ -36,7 +36,7 @@ header {
 .wrapper {
 	background-color: #000000;
 	color: #ffffff;
-	height: fit-content;
+	height: max-content;
 }
 
 .header__up {
@@ -570,6 +570,7 @@ header {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
+	width: fit-content;
 }
 .numbers__21 {
 	font-size: 106px;
@@ -578,6 +579,7 @@ header {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
+	width: fit-content;
 }
 .numbers__25 {
 	font-size: 110px;
@@ -587,6 +589,7 @@ header {
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
 	overflow: visible;
+	width: fit-content;
 }
 .numbers__paragraph {
 	font-size: 16px;
@@ -1220,9 +1223,10 @@ header {
 	width: 100%;
 	height: 383px;
 	position: relative;
-
+	bottom: 0;
 	background: rgb(33, 26, 51);
 	background: linear-gradient(0deg, rgba(33, 26, 51, 1) 0%, rgba(0, 5, 8, 1) 100%);
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1230,14 +1234,18 @@ header {
 .footer__box {
 	width: 1100px;
 	height: 221px;
+	position: relative;
+	bottom: 0;
 	display: flex;
 	justify-content: space-between;
 }
 @media (max-width: 1000px) {
 	.footer__box {
 		width: 500px;
-		height: 221px;
+		height: fit-content;
 		display: flex;
+		position: relative;
+
 		flex-direction: column-reverse;
 		justify-content: center;
 	}
