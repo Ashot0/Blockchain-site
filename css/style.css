@@ -119,8 +119,8 @@ header {
 .wrapper {
   background-color: #000000;
   color: #ffffff;
-  height: -moz-max-content;
-  height: max-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .header__up {
@@ -680,8 +680,6 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 .numbers__21 {
@@ -691,8 +689,6 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 .numbers__25 {
@@ -703,8 +699,6 @@ header {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   overflow: visible;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 .numbers__paragraph {
@@ -1389,7 +1383,6 @@ header {
   width: 100%;
   height: 383px;
   position: relative;
-  bottom: 0;
   background: rgb(33, 26, 51);
   background: linear-gradient(0deg, rgb(33, 26, 51) 0%, rgb(0, 5, 8) 100%);
   display: flex;
@@ -1400,8 +1393,6 @@ header {
 .footer__box {
   width: 1100px;
   height: 221px;
-  position: relative;
-  bottom: 0;
   display: flex;
   justify-content: space-between;
 }
@@ -1409,10 +1400,8 @@ header {
 @media (max-width: 1000px) {
   .footer__box {
     width: 500px;
-    height: -moz-fit-content;
-    height: fit-content;
+    height: 221px;
     display: flex;
-    position: relative;
     flex-direction: column-reverse;
     justify-content: center;
   }
@@ -1466,6 +1455,23 @@ header {
   color: #848895;
 }
 .footer-list__list a:hover {
+  color: white;
+}
+
+.footer__get-connected {
+  width: 205px;
+}
+
+.footer__language {
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #848895;
+}
+.footer__language img {
+  margin-right: 4px;
+}list a:hover {
   color: white;
 }
 
